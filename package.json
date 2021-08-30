@@ -1,0 +1,22 @@
+{
+  "name": "esbuild-ts-worker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "esbuild-ts-worker.js",
+  "scripts": {
+    "build": "snowpack build --reload",
+    "help": "snowpack -?",
+    "start": "snowpack dev",
+    "init": "snowpack init",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "snowpack": "^3.8.8"
+  },
+  "dependencies": {
+    "esbuild": "^0.12.24"
+  }
+}
